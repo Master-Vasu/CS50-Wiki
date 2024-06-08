@@ -1,0 +1,23 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Encyclopedia
+{% endblock %}
+
+{% block body %}
+
+    <h1 class="my-4 text-center">Recommendations:</h1>
+
+    <div class="container-sm">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6">
+                <ul class="list-group">
+                    {% for entry in entries %}
+                        <li class="list-group-item ps-2"><a href="{% url 'entry' title=entry %}">{{ entry }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
