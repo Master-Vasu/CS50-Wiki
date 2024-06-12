@@ -116,6 +116,10 @@ python manage.py runserver
 
 - Click on "Random Page" to explore a random entry from the wiki.
 
+## Video Demo
+
+YouTube Link: [Wiki Demo](https://youtu.be/gVNh3N6Tgl8?si=eVNIaLd_Vf4Dp9P2)
+
 
 ## Contributing
 
